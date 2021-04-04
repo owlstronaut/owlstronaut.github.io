@@ -24,9 +24,6 @@ description: >- # this means to ignore newlines until "baseurl:"
   Musings and learnings on my career in software.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: owlstronaut
-github_username:  owlstronaut
-linkedin_username: owlstronaut
 
 # Build settings
 plugins:
@@ -36,6 +33,10 @@ plugins:
 remote_theme: https://github.com/jekyll/minima
 minima:
   skin: dark
+  social_links:
+    twitter: owlstronaut
+    github: owlstronaut
+    linkedin: owlstronaut
 
 # Exclude from processing.
 # The following items will not be processed, by default.
