@@ -30,6 +30,8 @@ linkedin_username: owlstronaut
 
 # Build settings
 theme: minima
+minima:
+  skin: dark
 plugins:
   - jekyll-feed
 
